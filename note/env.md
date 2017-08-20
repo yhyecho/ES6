@@ -10,7 +10,12 @@
   * 
 * 了解如何使用gulp完成任务自动化
 ```js
-
+// 全局安装express和express-generator
+sudo npm install -g express sudo npm install -g express-generator
+// 进入server目录
+cd server
+// 当前目录生成express脚手架
+express --view=ejs .
 ```
 
 #### 编译工具 (babel, webpack)
